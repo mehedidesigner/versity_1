@@ -1,0 +1,220 @@
+/*Global section start here*/
+#popular-program, #slider-section ,#events, #footer{
+    margin-top: 50px;
+}
+*,div,section,.row {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+/*Global section end here*/
+
+/*Nav section start here*/
+#navbar{
+	background-color: #214;
+}
+.navbar-brand {
+	margin-top: 0px;
+}
+.dropdown-color{
+	background-color: #214;
+}
+
+.navbar ul li a{
+	color: #fff;
+}
+
+.navbar ul li a:hover{
+	color: #000;
+	font-family: times new roman;
+	font-size: 20px;
+	transition: 0.4s;
+	background-color: silver;
+	padding: 5px;
+}
+
+#navbar .nav-logo{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+}
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 7px;
+    }
+
+ .search_input{
+    color: #000;
+    border: 0;
+    outline: 250px;
+    background: none;
+    width: 0;
+    line-height: 30px;
+    transition: width 0.4s linear;
+    }
+
+.searchbar:hover > .search_input{
+    width: 200px;
+    caret-color:#000;
+    transition: width 0.5s linear;
+    }
+
+ .navbar-toggler-icon{
+ 	background-color: #fff;
+ 	color: #000;
+    }
+
+.fa-search{
+    	color: #214;
+    }
+
+#navbar .navbar-toggler .fa-bars{
+	margin: 4px;
+}
+
+   
+/*Nav section end here*/
+
+#selection-part{
+	background-color: #795;
+	padding: 50px 0;
+}
+
+
+.bootstrap-select .bs-ok-default::after {
+    width: 0.3em;
+    height: 0.6em;
+    border-width: 0 0.1em 0.1em 0;
+    transform: rotate(45deg) translateY(0.5rem);
+}
+
+.btn.dropdown-toggle:focus {
+    outline: none !important;
+}
+
+.selection-text{
+	display:  block;
+}
+
+
+/*search box css start here*/
+.search-sec{
+    padding-top: 1rem;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+/*search box css end here*/
+
+/* Carosol Section Start here */
+.carousel-caption{
+    bottom: 35%;
+    color: #fff;
+    font-family: Times New Roman;
+}
+#slider-section .carousel-inner .carousel-caption h3{
+    font-size: 4rem;
+    font-weight: bold;
+}
+#slider-section .carousel-inner .carousel-caption p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+/* Carosol Section End here */
+
+/* popular-program Start here */
+.popular-program h1{
+    padding: 15px;
+    background-color: #214;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+#popular-program .popular-program-btn button{
+    padding: 20px 75px;
+    font-size: 25px;
+    margin-right:20px;
+    margin-bottom: 20px;
+    border: 1px solid #214;
+    border-radius: 0px;
+}
+#popular-program .popular-program-btn button:hover{
+    background-color:silver;
+    transition: 0.5s linear;
+
+}
+#popular-program .view-all-program-btn button{
+    padding: 5px 50px;
+    font-size: 20px;
+
+}
+/* popular-program Start here */
+
+/* Event Section Start here */
+.card-img-top{
+    height: 250px;
+}
+.events-padding{
+    margin-top: 30px;
+}
+/* Event Section End here */
+
+/* Footer Section Start Here */
+
+#footer {
+    background: #214;
+    padding: 30px 0;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #AF8751;
+    text-decoration: none;
+}
+
+footer hr {
+    border-top: 1px solid #ffffff;
+}
+#footer .row .fab{
+    font-size: 60px;
+    padding: 0 10px;
+}
+#footer .footer-icon .list-inline-item a .fab{
+    font-size: 30px;
+    padding: 0 10px;
+}
+.form-padding{
+    padding-top: 10px;
+}
+/* Footer Section End Here */
+
+
+
+
